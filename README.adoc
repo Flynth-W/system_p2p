@@ -1,8 +1,9 @@
 = Systema p2p
 
     un sistema estructurado de (n) conexiones
-    ejemplo de 4 peers de (3) conexiones
-    ejemplo de 5 peers de (3) conexiones
+    ejemplo de red de (3) conexiones por nodo
+
+image::./img/ejemplo_de_sistema.png[Sunset,600,200]
 
 ==== tracker:
 
@@ -22,6 +23,11 @@
     3. teniendo los nodos con menor latencia, establece una conexión estable.
     4. listo para enviar y recibir datos desde la conexión estable.
 
+image::./img/1n.png[Sunse,200,100]
+image::./img/2n.png[Sunset,200,100]
+image::./img/3n.png[Sunset,200,100]
+image::./img/4n.png[Sunset,200,100]
+image::./img/5n.png[Sunset,200,100]
 ==== tipos de conexión en la red:
 
 * conexión estable:
@@ -48,3 +54,10 @@
     manda un mensaje a todos los nodos conectados;
     si llega un mensaje y no lo tiene, lo reenvía a sus demás nodos,
     si lo tiene, no lo envía.
+
+ejemplo con colores:
+
+image::./img/c1.png[Sunset,200,100]
+image::./img/c2.png[Sunset,200,100]
+image::./img/c3.png[Sunset,200,100]
+image::./img/c4.png[Sunset,200,100]
