@@ -1,4 +1,4 @@
-= Systema p2p
+= Sistema p2p
 
     un sistema estructurado de (n) conexiones
     ejemplo de red de (3) conexiones por nodo
